@@ -1,19 +1,10 @@
-# usage
-```shell
-pnpm dev
-
-curl -X POST http://localhost:4111/api/agents/weatherAgent/generate \
--H "Content-Type: application/json" \
--d '{"messages": ["What is the weather in London?"]}'
-```
-
 # init
 ```shell
-# https://mastra.ai/docs/getting-started/installation
-pnpm create mastra@latest
-
+[19:16] my % pnpm create mastra@latest
+┌  Mastra Create
+│
 ◇  What do you want to name your project?
-│  mastra-app
+│  my-mastra-app
 │
 ◇  Project created
 │
@@ -21,7 +12,7 @@ pnpm create mastra@latest
 │
 ◇  mastra installed
 │
-◇  @mastra/core installed
+◇  Dependencies installed
 │
 ◇  .gitignore added
 │
@@ -46,10 +37,27 @@ pnpm create mastra@latest
 │  Enter API key
 │
 ◇  Enter your API key:
+│  sk-
 │
 ◇  Add example
 │  Yes
 │
 ◇  Make your AI IDE into a Mastra expert? (installs Mastra docs MCP server)
 │  Skip for now
+│
+◇
+│
+◇   ───────────────────────────────────────╮
+│                                          │
+│                                          │
+│        Mastra initialized successfully!  │
+│                                          │
+│                                          │
+├──────────────────────────────────────────╯
+│
+└
+   To start your project:
+
+    cd my-mastra-app
+    pnpm run dev
 ```
